@@ -102,7 +102,7 @@ const pascals = {
   
     function startDrawing() {
       const rows = document.querySelector(".rows").value;
-      const delay = document.querySelector(".delay").value * 1000;
+      const delay = document.querySelector(".delay").value * 100;
       const color =
         document.querySelector('input[name="color"]:checked')?.value || "black";
   

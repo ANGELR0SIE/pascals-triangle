@@ -7,8 +7,12 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
-  
 .main h1{
     color:#f06529;
     text-align: center;
