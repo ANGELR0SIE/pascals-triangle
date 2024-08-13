@@ -13,6 +13,22 @@ body {
     background-size: cover;
     
   }
+  .main{
+    position: relative;
+  }
+  .main::after{
+content: "click start to see the triangle";
+position: absolute;
+
+color: #f06529;
+opacity: 0.3;
+font-size: 35px;
+top: 40%;
+/* left: 50%; */
+right: 0%;
+/* text-wrap: nowrap; */
+text-align: center;
+  }
 .main h1{
     color:#f06529;
     text-align: center;
@@ -62,8 +78,19 @@ body {
     margin-right: 5px;
   }
   
+  .color-radio:hover::after {
+    content: "Click ! "; 
+    font-size: 18px;
+    background-color: #b5c4d3;
+    text-wrap: nowrap;
+    position: relative;
+    bottom: 20px;
+    border-radius: 4px;
+    
+  }
+
   .color-radio:checked {
-    box-shadow: 0 0 0 3px #000;
+    box-shadow: 0 0 0 3px #e7ecb8;
   }
   
   .color-label {
