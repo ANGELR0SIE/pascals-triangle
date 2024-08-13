@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+.main h1{
+    color:#f06529;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+  .options {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+
+  .choices span {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .choices input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .choices img{
+    position: relative;
+    top: 5px;
+  }
+
+
+  .colors {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .color-radio {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .color-radio:checked {
+    box-shadow: 0 0 0 3px #000;
+  }
+  
+  .color-label {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    background-color: #1976d2;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #155a99;
+  }
+  
+
+  .output-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 170px;
+    min-width: 350px;
+    background-color: #fff;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 2px;
+  }
+  
