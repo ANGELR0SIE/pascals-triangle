@@ -105,7 +105,8 @@ const pascals = {
       const delay = document.querySelector(".delay").value * 100;
       const color =
         document.querySelector('input[name="color"]:checked')?.value || "#f06529";
-  
+      const outputFlex=document.querySelector('.output-flex');
+      outputFlex.style.position='relative';
       createTriangle(rows);
       colorRows(color, delay);
     }

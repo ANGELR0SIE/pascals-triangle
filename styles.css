@@ -128,8 +128,12 @@ text-align: center;
     min-height: 170px;
     min-width: 350px;
     background-color: #fff;
+    z-index: 5;
+    /* position: relative;  */
   }
-  
+  .options{
+    background-color: #fff; 
+  }
   .row {
     display: flex;
     justify-content: center;
